@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/small_Padding"
+    android:layout_margin="@dimen/normal_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="210dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_one">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ellipse_2"
+        android:paddingStart="@dimen/small_Padding"
+        android:layout_marginEnd="@dimen/normal_margin">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/small_Padding"
+        android:text="@string/nameTeacher"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ceo_procrew"
+        android:paddingStart="@dimen/small_Padding"
+        android:textSize="@dimen/text_size_Procrew"
+        android:textColor="@color/text_color_proCrew">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_369_258_147"
+        android:textSize="@dimen/text_size"
+        android:paddingStart="@dimen/small_Padding"
+        android:drawablePadding="@dimen/small_Padding"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:textColor="@color/black"
+        app:drawableStartCompat="@drawable/baseline_phone_24">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_h_procrew_pro"
+        android:textSize="@dimen/text_size"
+        android:paddingStart="@dimen/small_Padding"
+        android:drawablePadding="@dimen/small_Padding"
+        android:textColor="@color/black"
+        app:drawableStartCompat="@drawable/outline_email_24">
+    </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_one"
+        android:paddingTop="@dimen/large_padding"
+        android:paddingStart="4dp"
+        android:layout_marginLeft="@dimen/normal_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company_details"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/www_procrew_pro"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/badgeTextColor"
+            android:paddingStart="@dimen/small_Padding"
+            android:drawablePadding="@dimen/small_Padding"
+            android:layout_marginTop="@dimen/normal_margin"
+            app:drawableStartCompat="@drawable/baseline_home_24">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employees"
+            android:paddingStart="@dimen/small_Padding"
+            android:drawablePadding="@dimen/small_Padding"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            app:drawableStartCompat="@drawable/baseline_employees">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location_alexandria_egypt"
+            android:textSize="@dimen/text_size"
+            android:paddingStart="@dimen/small_Padding"
+            android:paddingBottom="0dp"
+            android:drawablePadding="@dimen/small_Padding"
+            android:textColor="@color/black"
+            app:drawableStartCompat="@drawable/outline_location_on_24">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note"
+            android:textSize="@dimen/text_size"
+            android:layout_marginStart="30dp"
+            android:drawablePadding="@dimen/small_Padding"
+            android:textColor="@color/black">
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
+

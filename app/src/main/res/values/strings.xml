@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">userProfile</string>
+    <string name="nameTeacher">Mr.Hassan Magdy</string>
+    <string name="ceo_procrew">CEO , ProCrew</string>
+    <string name="tel_369_258_147">Tel : 369 258 147</string>
+    <string name="email_h_procrew_pro">Email:h@procrew.pro</string>
+    <string name="company_details">Company Details</string>
+    <string name="www_procrew_pro">www.procrew.pro</string>
+    <string name="employees">Employees : 50 - 100</string>
+    <string name="location_alexandria_egypt">Location : Alexandria , Egypt</string>
+    <string name="note">Note : I am available everyday from 9:00 AM to 5:00 PM</string>
+</resources>
